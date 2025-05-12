@@ -1,0 +1,6 @@
+pyTelegramBotAPI
+requests
+SpeechRecognition
+gspread
+oauth2client
+Flask
