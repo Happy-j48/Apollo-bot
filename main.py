@@ -9,7 +9,7 @@ from flask import Flask, request, jsonify
 import os
 
 # === CONFIGURATION ===
-TELEGRAM_BOT_TOKEN = '7612354488:AAEuncMg-5oq7cm3eRP_0IgS37YW8DF4wGk'  # Must include a colon (e.g., '123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11')
+TELEGRAM_BOT_TOKEN = 'enter telegram bot token'  # Must include a colon (e.g., '123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11')
 GOOGLE_SHEET_NAME = 'Apollo Lookup Logs'
 
 bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN)
