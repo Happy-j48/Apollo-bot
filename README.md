@@ -60,7 +60,7 @@ GOOGLE_SHEET_NAME = 'Apollo Lookup Logs'
 ### 5. Run the Bot
 
 ```bash
-python apollo_lookup_bot.py
+python main.py
 ```
 
 ### 6. Testing
@@ -92,7 +92,7 @@ POST /webhook
 ```
 apollo-lookup-bot/
 │
-├── apollo_lookup_bot.py      # Main bot script
+├── main.py      # Main bot script
 ├── requirements.txt          # Python dependencies
 ├── credentials.json          # Google Sheets API credentials
 └── README.md                 # This file
